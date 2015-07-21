@@ -1,45 +1,6 @@
 {
-	"name": "aertrip",
-	"aertrip/home": {
-		"js": ["aertrip.app.js"],
-		"css": ["aertrip.app.scss"],
-		"on": ["jqgeeks/underscore", "aertrip/spam_modules", "aertrip/common", "aertrip/default_tags1", "aertrip/external_widget", "aertrip/internal_widget", "aertrip/common_js"]
-	},
-	"aertrip/spam_modules": {
-		"on": ["webmodules/jquery", "spamjs/view", "webmodules/jqrouter", "jqutils/jsonutil", "jqutils/cache", "jqgeeks/bootstrap_js", "webmodules/jquery_ui"]
-	},
-	"aertrip/common_js": {
-		"js": ["scripts/common/index.js"]
-	},
-	"aertrip/external_widget": {
-		"js": ["scripts/widgets/tab/tabcontent.js", "scripts/widgets/accordionColl/smk-accordion.js", "scripts/widgets/bgslider/jquery.sublimeSlideshow.js"],
-		"on": ["webmodules/jquery/migrate", "webmodules/jquery/ui"]
-	},
-	"aertrip/internal_widget": {
-		"js": ["scripts/widgets/dropdown/dropdown.js", "scripts/widgets/autosearch/jquery.autosearch.js", "scripts/widgets/flightCount/jquery.flightCount.js"]
-	},
-	"aertrip/module_js": {
-		"js": ["scripts/module/bus/bus.js", "scripts/module/checkout/paymentCart.js", "scripts/module/checkout/cabsreceipts.js", "scripts/module/flights/flights.js", "scripts/module/flight/flightHome.js", "scripts/module/stylesheet/index.js"]
-	},
-	"aertrip/default_tags1": {
-		"on": ["jqtags/jq-select", "jqtags/jq-switch", "jqtags/jq-slider/jquery", "jqtags/jq-tab", "jqtags/jq-repeat"]
-	},
-	"webmodules/bootstrap_css": {
-		"css": ["somthing.css"]
-	},
-	"webmodules/bootstrap": {
-		"on": ["webmodules/bootstrap_css", "webmodules/bootstrap_js"]
-	},
-	"jqgeeks/bootstrap_notheme": {
-		"on": ["webmodules/bootstrap_js"]
-	},
-	"jqgeeks/bootstrap_css": {
-		"css": ["something.css"]
-	},
-	"jqgeeks/bootstrap_notheme": {
-		"js": ["jqgeeks/bootstrap_js"]
-	},
-	"jqgeeks/underscore": {
+	"name": "webmodules/underscore",
+	"webmodules/underscore": {
 		"js": ["underscore.js"]
 	}
 }
